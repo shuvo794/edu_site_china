@@ -1,15 +1,16 @@
-import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-
+import logo from "../../images/YC.png";
+import "./Header.css";
 const Header = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar className="bg" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+        {/* <Navbar.Brand href="#">Navbar scroll</Navbar.Brand> */}
+        <img className="logo" src={logo} alt="logo" />
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -17,31 +18,39 @@ const Header = () => {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Link</Nav.Link>
-            <NavDropdown title="Link" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Something else here
-              </NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="#" disabled>
-              Link
-            </Nav.Link>
+            <Form className="d-flex serch">
+              <Form.Control
+                type="search"
+                placeholder="Search"
+                className="me-2"
+                aria-label="Search"
+              />
+            </Form>
           </Nav>
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form>
+
+          <Nav.Link href="#action1" className="home">
+            Home
+          </Nav.Link>
+          <NavDropdown title="Courses" id="navbarScrollingDropdown">
+            <NavDropdown.Item href="#action3">Courses</NavDropdown.Item>
+            <NavDropdown.Item href="#action4">Single Courses</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href="#action5">
+              Instructor Profile
+            </NavDropdown.Item>
+          </NavDropdown>
+          <NavDropdown title="Research" id="navbarScrollingDropdown">
+            <NavDropdown.Item href="#action3">Research 1</NavDropdown.Item>
+            <NavDropdown.Item href="#action4">Research 2</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href="#action5">Research 2</NavDropdown.Item>
+          </NavDropdown>
+          <NavDropdown title="Contuct" id="navbarScrollingDropdown">
+            <NavDropdown.Item href="#action3">Contuct 1</NavDropdown.Item>
+            <NavDropdown.Item href="#action4">Contuct 2</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href="#action5">Contuct 2</NavDropdown.Item>
+          </NavDropdown>
         </Navbar.Collapse>
       </Container>
     </Navbar>
