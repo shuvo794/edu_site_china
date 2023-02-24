@@ -4,6 +4,7 @@ import Banner from "../Banner/Banner";
 import Service from "../Service/Service";
 import Blog from "../Blog/Blog";
 import Counter from "../Counter/Counter";
+import Instractor from "../Instractor/Instractor";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Service />
       <Blog />
       <Counter />
+      <Instractor />
     </div>
   );
 };
