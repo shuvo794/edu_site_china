@@ -20,7 +20,7 @@ const Contuct = () => {
           <div>
             <h3>Contact Us</h3>
           </div>
-          <form className="contact-right" onSubmit={""}>
+          <form className="contact-right " onSubmit={""}>
             <input placeholder="Name" required id="name" className="rounde" />
 
             <input placeholder="Email" required id="email" />

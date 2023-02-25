@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { FaBook, FaGraduationCap, FaUserAlt } from "react-icons/fa";
 import "./Service.css";
 
 const Service = () => {
@@ -8,66 +9,32 @@ const Service = () => {
       <Container>
         <Row>
           <Col>
-            <div className="section-title text-center mb-5">
-              <h3>Featured Categories</h3>
-              <span></span>
+            <div className="section-title text-center mb-5 ">
+              <h3>Welcome To Featured Categories</h3>
             </div>
           </Col>
         </Row>
+
         <Row>
           <Col md={4}>
             <div className="single-service shadow">
-              <h3>Question Solutions</h3>
-              <p>
-                Our vision is to make this website for the students who may find
-                the previous year qestions solution.
-              </p>
+              <FaGraduationCap className="ico" />
+              <h5>Scholarship Facility</h5>
+              <p>Our institution Provide a student Scholarship</p>
             </div>
           </Col>
           <Col md={4}>
             <div className="single-service shadow">
-              <h3>Books</h3>
-              <p>
-                Get various types of free books and to make this website for the
-                students who may find the previous year qestions solution.
-              </p>
+              <FaUserAlt className="ico" />
+              <h5>Skilled Lecturers</h5>
+              <p>Our all lecturers high skilled . best serve a study</p>
             </div>
           </Col>
           <Col md={4}>
             <div className="single-service shadow">
-              <h3>Notes</h3>
-              <p>
-                Every students can find the best notes available in our website
-                and it will be really helpful for the students who are
-                dedicated.
-              </p>
-            </div>
-          </Col>
-          <Col md={4}>
-            <div className="single-service shadow">
-              <h3>Lab Solutions</h3>
-              <p>
-                You will get the solutions of lab also.Some students are facing
-                issue with the lab solutions.So here we are to help you.
-              </p>
-            </div>
-          </Col>
-          <Col md={4}>
-            <div className="single-service shadow">
-              <h3>Find Syllabus</h3>
-              <p>
-                In every exam or schedule is happen syllabus is a very important
-                thing to preprere by ourselfs.It saves our valuable time.
-              </p>
-            </div>
-          </Col>
-          <Col md={4}>
-            <div className="single-service shadow">
-              <h3>Educational Blogs</h3>
-              <p>
-                Also you will find blogs about many educational topics. What
-                will be very helpfull of enrich your knowledge.
-              </p>
+              <FaBook className="ico" />
+              <h5>Book Library & Store</h5>
+              <p>We have nice library .All student get all kind of Book </p>
             </div>
           </Col>
         </Row>
