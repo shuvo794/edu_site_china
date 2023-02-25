@@ -16,7 +16,7 @@ const Banner = () => {
       <Carousel.Item>
         <img className="d-block w-100" src={Banner1} alt="First slide" />
         <Carousel.Caption>
-          <h3 className="center">Best Education</h3>
+          <h2 className="center fw-bolder ">Best Education</h2>
           <p>
             Emply dummy text of the printing and typesetting industry orem Ipsum
             has been the industry's standard dummy text ever sinceprinting and
@@ -28,7 +28,7 @@ const Banner = () => {
         <img className="d-block w-100" src={Banner2} alt="Second slide" />
 
         <Carousel.Caption className="m-t-5">
-          <h3 className="center">Best Education</h3>
+          <h2 className="center">Best Education</h2>
           <p className="justfy-content-center">
             Emply dummy text of the printing and typesetting industry orem Ipsum
             has been the industry's standard dummy text ever sinceprinting and
@@ -40,7 +40,7 @@ const Banner = () => {
         <img className="d-block w-100" src={Banner3} alt="Third slide" />
 
         <Carousel.Caption className="text-align-center">
-          <h3 className="center">Best Education</h3>
+          <h2 className="center">Best Education</h2>
           <p>
             Emply dummy text of the printing and typesetting industry orem Ipsum
             has been the industry's standard dummy text ever sinceprinting and

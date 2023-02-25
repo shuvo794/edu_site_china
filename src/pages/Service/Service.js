@@ -9,8 +9,9 @@ const Service = () => {
       <Container>
         <Row>
           <Col>
-            <div className="section-title text-center mb-5 ">
+            <div className="section-title text-center mb-5">
               <h3>Welcome To Featured Categories</h3>
+              <span></span>
             </div>
           </Col>
         </Row>

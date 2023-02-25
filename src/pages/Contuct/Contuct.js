@@ -27,7 +27,7 @@ const Contuct = () => {
 
             <input required id="mess" />
             <input
-              className="submit-btn btn btn-danger"
+              className="submit-btn btn btn-primary"
               type="submit"
               value="Send Message"
             />

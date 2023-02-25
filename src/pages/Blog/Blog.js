@@ -26,7 +26,10 @@ const data = [
 const Blog = () => {
   return (
     <Container className="mt-5">
-      <h1 className="text-center mb-5">All That needed for Study.</h1>
+      <div className="section-title text-center mb-5">
+        <h3>All That needed for Study.</h3>
+        <span></span>
+      </div>
       <Row xs={1} md={3} className="g-4">
         {data.map((item) => (
           <Col>
