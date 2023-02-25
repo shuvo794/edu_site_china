@@ -17,22 +17,13 @@ const Home = () => {
       <Header />
       <Banner />
       <Service />
-
       <Visa />
       <Blog />
       <Counter />
       <Instractor />
       <Add />
-      {/* 
-      
-      
-     
-      
-      
-      
-      
       <Contuct />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 };
