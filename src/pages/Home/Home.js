@@ -22,6 +22,7 @@ const Home = () => {
       <Blog />
       <Counter />
       <Instractor />
+      <Add />
       {/* 
       
       
@@ -29,7 +30,7 @@ const Home = () => {
       
       
       
-      <Add />
+      
       <Contuct />
       <Footer /> */}
     </div>
