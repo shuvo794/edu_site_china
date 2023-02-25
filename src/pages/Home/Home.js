@@ -9,15 +9,16 @@ import Footer from "../Shared/Footer/Footer";
 import Add from "../Add/Add";
 import Contuct from "../Contuct/Contuct";
 import Visa from "../Visa/Visa";
-import Fly from "../Fly/Fly";
+
 
 const Home = () => {
   return (
     <div>
       <Header />
-      {/* <Banner /> */}
-      {/* <Service /> */}
-      {/* <Fly /> */}
+      <Banner />
+      <Service />
+
+      <Visa />
       {/* 
       
       
