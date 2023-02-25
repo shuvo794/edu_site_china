@@ -1,154 +1,57 @@
 import React from "react";
-import {
-  FaArrowRight,
-  FaFacebook,
-  FaInstagram,
-  FaTwitter,
-  FaYoutube,
-  FaLinkedin,
-  FaPinterest,
-} from "react-icons/fa";
-import { Col, Container, Row } from "react-bootstrap";
-import "./Footer.css";
+
+import logo from "../../images/YC.png";
+import payment from "../../images/payment-methods.png";
+
 const Footer = () => {
   return (
-    <footer className="footer-area pt-5 pb-3 mt-5">
-      <div className="footer-top">
-        <Container>
-          <Row>
-            <Col md={3}>
-              <div className="footer-box">
-                <h4>Get In Touch</h4>
-                <div className="links mt-4">
-                  <ul>
-                    <li>
-                      {" "}
-                      <FaArrowRight className="link-icon" />
-                      Contact
-                    </li>
+    <>
+      <hr />
+      <footer className="page-footer font-small blue pt-4 border-area">
+        <div className="container-fluid text-center text-md-left">
+          <div className="row">
+            <div className="col-md-6 mt-md-0 mt-3 img-grib">
+              <img className="logo" src={logo} alt="logo" />
+              <br />
+              <br />
+              <img
+                className="payment"
+                width="80%"
+                height="60%"
+                src={payment}
+                alt=""
+              />
+            </div>
 
-                    <li>
-                      {" "}
-                      <FaArrowRight className="link-icon" />
-                      Go to Home
-                    </li>
+            <hr className="clearfix w-100 d-md-none pb-0" />
 
-                    <li>
-                      {" "}
-                      <FaArrowRight className="link-icon" />
-                      Dashboard
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </Col>
-            <Col md={3}>
-              <div className="footer-box">
-                <h4>Useful Category</h4>
-                <div className="links mt-4">
-                  <ul>
-                    <li>
-                      {" "}
-                      <FaArrowRight className="link-icon" />
-                      All Questions
-                    </li>
+            <div className="col-md-3 mb-md-0 mb-3">
+              <h5 className="text-uppercase text-primary">Featured Links</h5>
+              <ul className="list-unstyled">
+                <li>Graduation</li>
+                <li>Admissions</li>
+                <li>International</li>
+                <li>FAQs</li>
+              </ul>
+            </div>
 
-                    <li>
-                      {" "}
-                      <FaArrowRight className="link-icon" />
-                      All Assignments
-                    </li>
+            <div className="col-md-3 mb-md-0 mb-3">
+              <h5 className="text-uppercase text-primary">Our Visa</h5>
+              <ul className="list-unstyled text-black">
+                <li>Student Visa</li>
+                <li>Residence Visa</li>
+                <li>Business Visa</li>
+                <li>Tourist Visa</li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-                    <li>
-                      {" "}
-                      <FaArrowRight className="link-icon" />
-                      All Syllabus
-                    </li>
-
-                    <li>
-                      {" "}
-                      <FaArrowRight className="link-icon" />
-                      All Blogs
-                    </li>
-
-                    <li>
-                      {" "}
-                      <FaArrowRight className="link-icon" />
-                      All Notes
-                    </li>
-
-                    <li>
-                      {" "}
-                      <FaArrowRight className="link-icon" />
-                      All Labs
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </Col>
-            <Col md={3}>
-              <div className="footer-box">
-                <h4>Important Links</h4>
-                <div className="links mt-4">
-                  <ul>
-                    <li>
-                      {" "}
-                      <FaArrowRight className="link-icon" />
-                      All Books
-                    </li>
-
-                    <li>
-                      {" "}
-                      <FaArrowRight className="link-icon" />
-                      Dashboard
-                    </li>
-
-                    <li>
-                      {" "}
-                      <FaArrowRight className="link-icon" />
-                      User Profile
-                    </li>
-
-                    <li>
-                      {" "}
-                      <FaArrowRight className="link-icon" />
-                      My Questions
-                    </li>
-
-                    <li>
-                      {" "}
-                      <FaArrowRight className="link-icon" />
-                      My Notes
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </Col>
-            <Col md={3}>
-              <div className="footer-box">
-                <h4>Social Media</h4>
-                {/* <div className="subscribe-form mt-4">
-                          <form onSubmit={handleSubmit}>
-                              <input onChange={(e) => setEmail(e.target.value)} type="email" required placeholder='Enter Email' />
-                              <button type='submit'>Subscribe <FaArrowRight className='link-icon' /></button>
-                          </form>
-                      </div> */}
-                <div className="footer-social mt-3">
-                  {/* <h5>Social Media</h5> */}
-                  <FaFacebook className="social-icon" />
-                  <FaInstagram className="social-icon" />
-                  <FaTwitter className="social-icon" />
-                  <FaYoutube className="social-icon" />
-                  <FaTwitter className="social-icon" />
-                  <FaLinkedin className="social-icon" />
-                  <FaPinterest className="social-icon" />
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-    </footer>
+        <div className="footer-copyright text-center py-3">
+          © 2023 Copyright :<a href="#!"> Shuvo</a>
+        </div>
+      </footer>
+    </>
   );
 };
 
