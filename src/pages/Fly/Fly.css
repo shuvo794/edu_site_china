@@ -1,6 +1,6 @@
 .coustom{
     display: flex;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     padding: 37px 37px;
 }

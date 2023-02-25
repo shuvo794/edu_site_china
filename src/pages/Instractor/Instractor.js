@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaTwitter,
-  FaYoutube,
-  FaLinkedin,
-  FaPinterest,
-} from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 import instractor1 from "../images/instactor-1.jpeg";
 import instractor2 from "../images/instactor-2.jpeg";
 import instractor3 from "../images/instactor-3.jpeg";
