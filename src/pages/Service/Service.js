@@ -21,7 +21,9 @@ const Service = () => {
             <div className="single-service shadow">
               <FaGraduationCap className="ico" />
               <h5>Scholarship Facility</h5>
-              <p>Our institution Provide a student Scholarship</p>
+              <p>
+                Our all Scholarship provide high skilled . best serve a study
+              </p>
             </div>
           </Col>
           <Col md={4}>
