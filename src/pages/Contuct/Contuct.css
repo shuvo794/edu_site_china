@@ -10,8 +10,13 @@
     width: 100%;
     margin-bottom: 16px;
     padding: 6px;
+   
 }
-
+input{
+    border: 1px solid rgb(94, 92, 92);
+    border-width: .5px;
+    border-radius: 5px;
+}
 .contact-right form {
     margin-top: 40px;
 }
@@ -64,4 +69,11 @@ a {
 
 #mess{
     height: 140px;
+}
+.hole{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding-bottom: 40px;
 }

@@ -5,7 +5,7 @@ import "./Contuct.css";
 const Contuct = () => {
   return (
     <Container>
-      <Row className="my-5 ">
+      <Row className="my-5 hole">
         <Col lg={6}>
           <img src={contact} className="img-fluid my-5" alt="" />
           {/*  <div >
@@ -18,7 +18,7 @@ const Contuct = () => {
         </Col>
         <Col lg={6}>
           <div>
-            <h3>Contact Us</h3>
+            <h3 className="mb-3">Contact Us</h3>
           </div>
           <form className="contact-right " onSubmit={""}>
             <input placeholder="Name" required id="name" className="rounde" />

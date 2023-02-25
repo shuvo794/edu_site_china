@@ -8,6 +8,7 @@ import Instractor from "../Instractor/Instractor";
 import Footer from "../Shared/Footer/Footer";
 import Add from "../Add/Add";
 import Contuct from "../Contuct/Contuct";
+import Visa from "../Visa/Visa";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Header />
       <Banner />
       <Service />
+      <Visa />
       <Blog />
       <Counter />
       <Instractor />
