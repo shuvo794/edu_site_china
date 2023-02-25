@@ -17,6 +17,8 @@ const Home = () => {
       <Header />
       <Banner />
       <Service />
+      {/* 
+      
       <Fly />
       <Visa />
       <Blog />
@@ -24,7 +26,7 @@ const Home = () => {
       <Instractor />
       <Add />
       <Contuct />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };

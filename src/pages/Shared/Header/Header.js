@@ -39,12 +39,7 @@ const Header = () => {
               Instructor Profile
             </NavDropdown.Item>
           </NavDropdown>
-          {/* <NavDropdown title="Research" id="navbarScrollingDropdown">
-            <NavDropdown.Item href="#action3">Research 1</NavDropdown.Item>
-            <NavDropdown.Item href="#action4">Research 2</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action5">Research 2</NavDropdown.Item>
-          </NavDropdown> */}
+
           <NavDropdown title="Contuct" id="navbarScrollingDropdown">
             <NavDropdown.Item href="#action3">Contuct 1</NavDropdown.Item>
             <NavDropdown.Item href="#action4">Contuct 2</NavDropdown.Item>

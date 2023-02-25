@@ -16,12 +16,14 @@ const Banner = () => {
       <Carousel.Item>
         <img className="d-block w-100" src={Banner1} alt="First slide" />
         <Carousel.Caption>
-          <h2 className="center fw-bolder ">Best Education</h2>
-          <p>
-            Emply dummy text of the printing and typesetting industry orem Ipsum
-            has been the industry's standard dummy text ever sinceprinting and
-            typesetting industry.
-          </p>
+          <div className="res-carosul">
+            <h2 className="center fw-bolder ">Best Education</h2>
+            <p>
+              Emply dummy text of the printing and typesetting industry orem
+              Ipsum has been the industry's standard dummy text ever
+              sinceprinting and typesetting industry.
+            </p>
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
