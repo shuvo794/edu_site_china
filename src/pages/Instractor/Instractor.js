@@ -7,8 +7,8 @@ import instractor4 from "../images/instactor-4.jpeg";
 import "./Instractor.css";
 const Instractor = () => {
   return (
-    <section id="team" class="team section-bg">
-      <div class="container">
+    <section id="team" class="team section-bg container">
+      <div>
         <div className="section-title text-center mb-5">
           <h3>Our Instructor</h3>
           <span></span>

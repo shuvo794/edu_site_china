@@ -19,13 +19,16 @@ const Home = () => {
       <Service />
 
       <Visa />
-      {/* 
-      
-      
-      <Visa />
       <Blog />
       <Counter />
       <Instractor />
+      {/* 
+      
+      
+     
+      
+      
+      
       <Add />
       <Contuct />
       <Footer /> */}
