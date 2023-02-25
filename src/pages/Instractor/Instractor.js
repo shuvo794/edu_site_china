@@ -30,10 +30,8 @@ const Instractor = () => {
                   <FaFacebook className="social-icon" />
                   <FaInstagram className="social-icon" />
                   <FaTwitter className="social-icon" />
-                  <FaYoutube className="social-icon" />
-                  <FaTwitter className="social-icon" />
+
                   <FaLinkedin className="social-icon" />
-                  <FaPinterest className="social-icon" />
                 </div>
               </div>
               <div class="member-info">
@@ -47,13 +45,11 @@ const Instractor = () => {
               <div class="member-img">
                 <img src={instractor2} class="img-fluid" alt="" />
                 <div class="social">
-                  <FaFacebook className="social-icon" />
+                  <FaFacebook className="social-icon " />
                   <FaInstagram className="social-icon" />
                   <FaTwitter className="social-icon" />
-                  <FaYoutube className="social-icon" />
-                  <FaTwitter className="social-icon" />
+
                   <FaLinkedin className="social-icon" />
-                  <FaPinterest className="social-icon" />
                 </div>
               </div>
               <div class="member-info">
@@ -70,10 +66,8 @@ const Instractor = () => {
                   <FaFacebook className="social-icon" />
                   <FaInstagram className="social-icon" />
                   <FaTwitter className="social-icon" />
-                  <FaYoutube className="social-icon" />
-                  <FaTwitter className="social-icon" />
+
                   <FaLinkedin className="social-icon" />
-                  <FaPinterest className="social-icon" />
                 </div>
               </div>
               <div class="member-info">
@@ -90,10 +84,8 @@ const Instractor = () => {
                   <FaFacebook className="social-icon" />
                   <FaInstagram className="social-icon" />
                   <FaTwitter className="social-icon" />
-                  <FaYoutube className="social-icon" />
-                  <FaTwitter className="social-icon" />
+
                   <FaLinkedin className="social-icon" />
-                  <FaPinterest className="social-icon" />
                 </div>
               </div>
               <div class="member-info">

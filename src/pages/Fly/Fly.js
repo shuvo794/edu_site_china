@@ -9,7 +9,7 @@ const Fly = () => {
           <img className="desti" height="360px" src={destination} alt="" />
         </div>
 
-        <div className="bg">
+        <div className="bg1">
           <br />
           <br />
 

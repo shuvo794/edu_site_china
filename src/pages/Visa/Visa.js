@@ -10,7 +10,7 @@ import "./visa.css";
 const Visa = () => {
   return (
     <div className="teamWrapper">
-      <div className="section-title text-center mb-5">
+      <div className="section-title text-center mb-5 mt-5">
         <h3 className="text-center fw-bold">Welcome to Immigo</h3>
         <span></span>
       </div>
