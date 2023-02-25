@@ -7,6 +7,7 @@ import Counter from "../Counter/Counter";
 import Instractor from "../Instractor/Instractor";
 import Footer from "../Shared/Footer/Footer";
 import Add from "../Add/Add";
+import Contuct from "../Contuct/Contuct";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Counter />
       <Instractor />
       <Add />
+      <Contuct />
       <Footer />
     </div>
   );
