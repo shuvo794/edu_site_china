@@ -9,6 +9,7 @@ import Footer from "../Shared/Footer/Footer";
 import Add from "../Add/Add";
 import Contuct from "../Contuct/Contuct";
 import Visa from "../Visa/Visa";
+import Fly from "../Fly/Fly";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Header />
       <Banner />
       <Service />
+      <Fly />
       <Visa />
       <Blog />
       <Counter />
