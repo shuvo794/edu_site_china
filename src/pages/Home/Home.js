@@ -5,6 +5,8 @@ import Service from "../Service/Service";
 import Blog from "../Blog/Blog";
 import Counter from "../Counter/Counter";
 import Instractor from "../Instractor/Instractor";
+import Footer from "../Shared/Footer/Footer";
+import Add from "../Add/Add";
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
       <Blog />
       <Counter />
       <Instractor />
+      <Add />
+      <Footer />
     </div>
   );
 };
